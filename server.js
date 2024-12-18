@@ -58,7 +58,7 @@ app.get('/api/gasdata', (req, res) => {
 
 // Web interfeys uchun statik HTML
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 // Serverni ishga tushirish
